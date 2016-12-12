@@ -1,0 +1,627 @@
+21:06:23 **** Build of configuration Default for project USBDevice ****
+make 
+*** Building project ./lpcopen_lpc4337 ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+*** Compiling C file src/pinint_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/pinint_18xx_43xx.c -o out/obj/pinint_18xx_43xx.o 
+
+*** Compiling C file src/otp_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/otp_18xx_43xx.c -o out/obj/otp_18xx_43xx.o 
+
+*** Compiling C file src/gpio_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/gpio_18xx_43xx.c -o out/obj/gpio_18xx_43xx.o 
+
+*** Compiling C file src/emc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/emc_18xx_43xx.c -o out/obj/emc_18xx_43xx.o 
+
+*** Compiling C file src/chip_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/chip_18xx_43xx.c -o out/obj/chip_18xx_43xx.o 
+
+*** Compiling C file src/wwdt_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/wwdt_18xx_43xx.c -o out/obj/wwdt_18xx_43xx.o 
+
+*** Compiling C file src/lpc_phy_smsc87x0.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/lpc_phy_smsc87x0.c -o out/obj/lpc_phy_smsc87x0.o 
+
+*** Compiling C file src/sdif_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sdif_18xx_43xx.c -o out/obj/sdif_18xx_43xx.o 
+
+*** Compiling C file src/spi_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/spi_18xx_43xx.c -o out/obj/spi_18xx_43xx.o 
+src/spi_18xx_43xx.c: In function 'Chip_SPI_Int_FlushData':
+src/spi_18xx_43xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+
+*** Compiling C file src/i2cm_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/i2cm_18xx_43xx.c -o out/obj/i2cm_18xx_43xx.o 
+
+*** Compiling C file src/i2s_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/i2s_18xx_43xx.c -o out/obj/i2s_18xx_43xx.o 
+
+*** Compiling C file src/clock_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/clock_18xx_43xx.c -o out/obj/clock_18xx_43xx.o 
+
+*** Compiling C file src/rgu_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/rgu_18xx_43xx.c -o out/obj/rgu_18xx_43xx.o 
+
+*** Compiling C file src/pmc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/pmc_18xx_43xx.c -o out/obj/pmc_18xx_43xx.o 
+
+*** Compiling C file src/ring_buffer.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/ring_buffer.c -o out/obj/ring_buffer.o 
+
+*** Compiling C file src/board_sysinit.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/board_sysinit.c -o out/obj/board_sysinit.o 
+
+*** Compiling C file src/timer_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/timer_18xx_43xx.c -o out/obj/timer_18xx_43xx.o 
+
+*** Compiling C file src/stopwatch_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/stopwatch_18xx_43xx.c -o out/obj/stopwatch_18xx_43xx.o 
+
+*** Compiling C file src/ssp_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/ssp_18xx_43xx.c -o out/obj/ssp_18xx_43xx.o 
+
+*** Compiling C file src/uart_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/uart_18xx_43xx.c -o out/obj/uart_18xx_43xx.o 
+
+*** Compiling C file src/enet_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/enet_18xx_43xx.c -o out/obj/enet_18xx_43xx.o 
+
+*** Compiling C file src/i2c_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/i2c_18xx_43xx.c -o out/obj/i2c_18xx_43xx.o 
+
+*** Compiling C file src/sdmmc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sdmmc_18xx_43xx.c -o out/obj/sdmmc_18xx_43xx.o 
+
+*** Compiling C file src/scu_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/scu_18xx_43xx.c -o out/obj/scu_18xx_43xx.o 
+
+*** Compiling C file src/ritimer_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/ritimer_18xx_43xx.c -o out/obj/ritimer_18xx_43xx.o 
+
+*** Compiling C file src/cr_startup_lpc43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/cr_startup_lpc43xx.c -o out/obj/cr_startup_lpc43xx.o 
+
+*** Compiling C file src/sct_pwm_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sct_pwm_18xx_43xx.c -o out/obj/sct_pwm_18xx_43xx.o 
+
+*** Compiling C file src/fpu_init.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/fpu_init.c -o out/obj/fpu_init.o 
+
+*** Compiling C file src/adc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/adc_18xx_43xx.c -o out/obj/adc_18xx_43xx.o 
+
+*** Compiling C file src/sysinit_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sysinit_18xx_43xx.c -o out/obj/sysinit_18xx_43xx.o 
+
+*** Compiling C file src/iap_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/iap_18xx_43xx.c -o out/obj/iap_18xx_43xx.o 
+src/iap_18xx_43xx.c: In function 'Chip_IAP_PreSectorForReadWrite':
+src/iap_18xx_43xx.c:59:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:59:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_CopyRamToFlash':
+src/iap_18xx_43xx.c:74:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:74:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_EraseSector':
+src/iap_18xx_43xx.c:89:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:89:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_BlankCheckSector':
+src/iap_18xx_43xx.c:103:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:103:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadPID':
+src/iap_18xx_43xx.c:114:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:114:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadBootCode':
+src/iap_18xx_43xx.c:125:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:125:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_Compare':
+src/iap_18xx_43xx.c:139:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:139:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_ReinvokeISP':
+src/iap_18xx_43xx.c:150:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:150:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadUID':
+src/iap_18xx_43xx.c:161:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:161:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_ErasePage':
+src/iap_18xx_43xx.c:175:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:175:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c: In function 'Chip_IAP_SetBootFlashBank':
+src/iap_18xx_43xx.c:188:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+src/iap_18xx_43xx.c:188:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from ./inc/chip_lpc43xx.h:209:0,
+                 from ./inc/chip.h:39,
+                 from src/iap_18xx_43xx.c:32:
+./inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+
+*** Compiling C file src/board.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/board.c -o out/obj/board.o 
+
+*** Compiling C file src/evrt_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/evrt_18xx_43xx.c -o out/obj/evrt_18xx_43xx.o 
+
+*** Compiling C file src/mem_tests.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/mem_tests.c -o out/obj/mem_tests.o 
+
+*** Compiling C file src/sct_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sct_18xx_43xx.c -o out/obj/sct_18xx_43xx.o 
+
+*** Compiling C file src/rtc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/rtc_18xx_43xx.c -o out/obj/rtc_18xx_43xx.o 
+
+*** Compiling C file src/gpdma_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/gpdma_18xx_43xx.c -o out/obj/gpdma_18xx_43xx.o 
+
+*** Compiling C file src/sysinit.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sysinit.c -o out/obj/sysinit.o 
+
+*** Compiling C file src/atimer_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/atimer_18xx_43xx.c -o out/obj/atimer_18xx_43xx.o 
+
+*** Compiling C file src/eeprom_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/eeprom_18xx_43xx.c -o out/obj/eeprom_18xx_43xx.o 
+
+*** Compiling C file src/aes_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/aes_18xx_43xx.c -o out/obj/aes_18xx_43xx.o 
+
+*** Compiling C file src/uda1380.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/uda1380.c -o out/obj/uda1380.o 
+
+*** Compiling C file src/lcd_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/lcd_18xx_43xx.c -o out/obj/lcd_18xx_43xx.o 
+
+*** Compiling C file src/dac_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/dac_18xx_43xx.c -o out/obj/dac_18xx_43xx.o 
+
+*** Compiling C file src/hsadc_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/hsadc_18xx_43xx.c -o out/obj/hsadc_18xx_43xx.o 
+
+*** Compiling C file src/gpiogroup_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/gpiogroup_18xx_43xx.c -o out/obj/gpiogroup_18xx_43xx.o 
+
+*** Compiling C file src/ccan_18xx_43xx.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/ccan_18xx_43xx.c -o out/obj/ccan_18xx_43xx.o 
+
+*** Archiving project lpcopen_lpc4337 ***
+arm-none-eabi-ar -r ./out/liblpcopen_lpc4337.a ./out/obj/pinint_18xx_43xx.o ./out/obj/otp_18xx_43xx.o ./out/obj/gpio_18xx_43xx.o ./out/obj/emc_18xx_43xx.o ./out/obj/chip_18xx_43xx.o ./out/obj/wwdt_18xx_43xx.o ./out/obj/lpc_phy_smsc87x0.o ./out/obj/sdif_18xx_43xx.o ./out/obj/spi_18xx_43xx.o ./out/obj/i2cm_18xx_43xx.o ./out/obj/i2s_18xx_43xx.o ./out/obj/clock_18xx_43xx.o ./out/obj/rgu_18xx_43xx.o ./out/obj/pmc_18xx_43xx.o ./out/obj/ring_buffer.o ./out/obj/board_sysinit.o ./out/obj/timer_18xx_43xx.o ./out/obj/stopwatch_18xx_43xx.o ./out/obj/ssp_18xx_43xx.o ./out/obj/uart_18xx_43xx.o ./out/obj/enet_18xx_43xx.o ./out/obj/i2c_18xx_43xx.o ./out/obj/sdmmc_18xx_43xx.o ./out/obj/scu_18xx_43xx.o ./out/obj/ritimer_18xx_43xx.o ./out/obj/cr_startup_lpc43xx.o ./out/obj/sct_pwm_18xx_43xx.o ./out/obj/fpu_init.o ./out/obj/adc_18xx_43xx.o ./out/obj/sysinit_18xx_43xx.o ./out/obj/iap_18xx_43xx.o ./out/obj/board.o ./out/obj/evrt_18xx_43xx.o ./out/obj/mem_tests.o ./out/obj/sct_18xx_43xx.o ./out/obj/rtc_18xx_43xx.o ./out/obj/gpdma_18xx_43xx.o ./out/obj/sysinit.o ./out/obj/atimer_18xx_43xx.o ./out/obj/eeprom_18xx_43xx.o ./out/obj/aes_18xx_43xx.o ./out/obj/uda1380.o ./out/obj/lcd_18xx_43xx.o ./out/obj/dac_18xx_43xx.o ./out/obj/hsadc_18xx_43xx.o ./out/obj/gpiogroup_18xx_43xx.o ./out/obj/ccan_18xx_43xx.o
+C:\CIAA\cygwin\usr\arm-none-eabi\bin\arm-none-eabi-ar.exe: creating ./out/liblpcopen_lpc4337.a
+arm-none-eabi-size ./out/liblpcopen_lpc4337.a
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    860	      0	     18	    878	    36e	lpc_phy_smsc87x0.o (ex ./out/liblpcopen_lpc4337.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3406	      0	      8	   3414	    d56	clock_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    180	      0	      0	    180	     b4	rgu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	board_sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2244	      0	      0	   2244	    8c4	ssp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2104	      0	      1	   2105	    839	uart_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    556	      0	      4	    560	    230	enet_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3140	      0	      4	   3144	    c48	sdmmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    172	      0	      0	    172	     ac	scu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    664	      0	      0	    664	    298	cr_startup_lpc43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex ./out/liblpcopen_lpc4337.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	sysinit_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1850	      0	      0	   1850	    73a	board.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1096	      0	      0	   1096	    448	mem_tests.o (ex ./out/liblpcopen_lpc4337.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    984	      0	      0	    984	    3d8	rtc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2698	    120	      8	   2826	    b0a	gpdma_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     40	      0	      0	     40	     28	sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    484	      0	     44	    528	    210	aes_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    613	      0	      0	    613	    265	uda1380.o (ex ./out/liblpcopen_lpc4337.a)
+    932	      1	      0	    933	    3a5	lcd_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    688	      0	      0	    688	    2b0	hsadc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2060	      0	      0	   2060	    80c	ccan_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+
+*** Building project ./sapi_bm ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+*** Compiling C file src/sAPI_Hmc5883l.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Hmc5883l.c -o out/obj/sAPI_Hmc5883l.o 
+src/sAPI_Hmc5883l.c: In function 'hmc5883lIsAlive':
+src/sAPI_Hmc5883l.c:46:56: warning: passing argument 4 of 'i2cRead' from incompatible pointer type
+    i2cRead( I2C0, HMC5883L_ADD, HMC5883L_REG_ID_REG_A, &idRegister, 3 );
+                                                        ^
+In file included from src/sAPI_Hmc5883l.c:38:0:
+./inc/sAPI_I2c.h:74:8: note: expected 'uint8_t *' but argument is of type 'uint8_t (*)[3]'
+ bool_t i2cRead( uint8_t i2cNumber, 
+        ^
+
+*** Compiling C file src/sAPI_AnalogIO.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_AnalogIO.c -o out/obj/sAPI_AnalogIO.o 
+
+*** Compiling C file src/sAPI_DataTypes.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_DataTypes.c -o out/obj/sAPI_DataTypes.o 
+
+*** Compiling C file src/sAPI_Timer.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Timer.c -o out/obj/sAPI_Timer.o 
+src/sAPI_Timer.c:93:4: warning: missing braces around initializer [-Wmissing-braces]
+    {doNothing,errorOcurred,errorOcurred,errorOcurred},
+    ^
+src/sAPI_Timer.c:93:4: warning: (near initialization for 'timer_dd[0].timerCompareMatchFunctionPointer') [-Wmissing-braces]
+
+*** Compiling C file src/sAPI_IsrVector.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_IsrVector.c -o out/obj/sAPI_IsrVector.o 
+
+*** Compiling C file src/sAPI_Uart.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Uart.c -o out/obj/sAPI_Uart.o 
+src/sAPI_Uart.c: In function 'uartWriteString':
+src/sAPI_Uart.c:131:4: warning: value computed is not used [-Wunused-value]
+    *str++;
+    ^
+
+*** Compiling C file src/sAPI_Tick.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Tick.c -o out/obj/sAPI_Tick.o 
+
+*** Compiling C file src/sAPI_Rtc.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Rtc.c -o out/obj/sAPI_Rtc.o 
+src/sAPI_Rtc.c: In function 'rtcConfig':
+src/sAPI_Rtc.c:69:15: warning: unused variable 'rtcTime' [-Wunused-variable]
+    RTC_TIME_T rtcTime;
+               ^
+
+*** Compiling C file src/sAPI_Sct.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Sct.c -o out/obj/sAPI_Sct.o 
+
+*** Compiling C file src/sAPI_Delay.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Delay.c -o out/obj/sAPI_Delay.o 
+
+*** Compiling C file src/sAPI_Spi.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Spi.c -o out/obj/sAPI_Spi.o 
+
+*** Compiling C file src/sAPI_Pwm.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Pwm.c -o out/obj/sAPI_Pwm.o 
+
+*** Compiling C file src/sAPI_DigitalIO.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_DigitalIO.c -o out/obj/sAPI_DigitalIO.o 
+
+*** Compiling C file src/sAPI_Servo.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Servo.c -o out/obj/sAPI_Servo.o 
+
+*** Compiling C file src/sAPI_Board.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_Board.c -o out/obj/sAPI_Board.o 
+
+*** Compiling C file src/sAPI_I2c.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/sAPI_I2c.c -o out/obj/sAPI_I2c.o 
+src/sAPI_I2c.c: In function 'i2cWrite':
+src/sAPI_I2c.c:147:19: warning: assignment from incompatible pointer type
+    i2cData.txBuff = &txBuff;
+                   ^
+
+*** Archiving project sapi_bm ***
+arm-none-eabi-ar -r ./out/libsapi_bm.a ./out/obj/sAPI_Hmc5883l.o ./out/obj/sAPI_AnalogIO.o ./out/obj/sAPI_DataTypes.o ./out/obj/sAPI_Timer.o ./out/obj/sAPI_IsrVector.o ./out/obj/sAPI_Uart.o ./out/obj/sAPI_Tick.o ./out/obj/sAPI_Rtc.o ./out/obj/sAPI_Sct.o ./out/obj/sAPI_Delay.o ./out/obj/sAPI_Spi.o ./out/obj/sAPI_Pwm.o ./out/obj/sAPI_DigitalIO.o ./out/obj/sAPI_Servo.o ./out/obj/sAPI_Board.o ./out/obj/sAPI_I2c.o
+C:\CIAA\cygwin\usr\arm-none-eabi\bin\arm-none-eabi-ar.exe: creating ./out/libsapi_bm.a
+arm-none-eabi-size ./out/libsapi_bm.a
+   text	   data	    bss	    dec	    hex	filename
+    500	      0	      0	    500	    1f4	sAPI_Hmc5883l.o (ex ./out/libsapi_bm.a)
+    420	      0	      0	    420	    1a4	sAPI_AnalogIO.o (ex ./out/libsapi_bm.a)
+     24	      0	      0	     24	     18	sAPI_DataTypes.o (ex ./out/libsapi_bm.a)
+   1716	     64	      0	   1780	    6f4	sAPI_Timer.o (ex ./out/libsapi_bm.a)
+    340	      0	      0	    340	    154	sAPI_IsrVector.o (ex ./out/libsapi_bm.a)
+    692	      0	      0	    692	    2b4	sAPI_Uart.o (ex ./out/libsapi_bm.a)
+    412	      4	      0	    416	    1a0	sAPI_Tick.o (ex ./out/libsapi_bm.a)
+    260	      0	      1	    261	    105	sAPI_Rtc.o (ex ./out/libsapi_bm.a)
+    672	     28	      0	    700	    2bc	sAPI_Sct.o (ex ./out/libsapi_bm.a)
+    384	      0	      0	    384	    180	sAPI_Delay.o (ex ./out/libsapi_bm.a)
+      0	      0	      0	      0	      0	sAPI_Spi.o (ex ./out/libsapi_bm.a)
+    519	     11	      0	    530	    212	sAPI_Pwm.o (ex ./out/libsapi_bm.a)
+   1278	      0	      0	   1278	    4fe	sAPI_DigitalIO.o (ex ./out/libsapi_bm.a)
+   1549	     72	      0	   1621	    655	sAPI_Servo.o (ex ./out/libsapi_bm.a)
+     12	      0	      0	     12	      c	sAPI_Board.o (ex ./out/libsapi_bm.a)
+    372	      0	      0	    372	    174	sAPI_I2c.o (ex ./out/libsapi_bm.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+
+*** Building project ./application ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+*** Compiling C file src/cdc_uart.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -I../lpcopen_lpc4337/inc/usbd -I../sapi_bm/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/cdc_uart.c -o out/obj/cdc_uart.o 
+
+*** Compiling C file src/main.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -I../lpcopen_lpc4337/inc/usbd -I../sapi_bm/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/main.c -o out/obj/main.o 
+
+*** Compiling C file src/cdc_desc.c ***
+arm-none-eabi-gcc -DDEBUG -DCORE_M4 -D__USE_LPCOPEN -D__LPC43XX__ -D__CODE_RED -I./inc -I../lpcopen_lpc4337/inc -I../lpcopen_lpc4337/inc/usbd -I../sapi_bm/inc -Wall -ggdb3 -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -c src/cdc_desc.c -o out/obj/cdc_desc.o 
+
+*** Linking project application ***
+arm-none-eabi-gcc -L../lpcopen_lpc4337/out -L../sapi_bm/out -nostdlib -fno-builtin -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Xlinker -Map=./out/application.map -T./ld/ciaa_lpc4337.ld -o ./out/application.axf ./out/obj/cdc_uart.o ./out/obj/main.o ./out/obj/cdc_desc.o  -llpcopen_lpc4337 -lsapi_bm 
+arm-none-eabi-size ./out/application.axf
+   text	   data	    bss	    dec	    hex	filename
+  23484	    212	    160	  23856	   5d30	./out/application.axf
+arm-none-eabi-objcopy -v -O binary ./out/application.axf ./out/application.bin
+copy from `./out/application.axf' [elf32-littlearm] to `./out/application.bin' [binary]
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+
+21:07:20 **** Incremental Build of configuration Default for project USBDevice ****
+make 
+*** Building project ./lpcopen_lpc4337 ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+*** Archiving project lpcopen_lpc4337 ***
+arm-none-eabi-ar -r ./out/liblpcopen_lpc4337.a ./out/obj/pinint_18xx_43xx.o ./out/obj/otp_18xx_43xx.o ./out/obj/gpio_18xx_43xx.o ./out/obj/emc_18xx_43xx.o ./out/obj/chip_18xx_43xx.o ./out/obj/wwdt_18xx_43xx.o ./out/obj/lpc_phy_smsc87x0.o ./out/obj/sdif_18xx_43xx.o ./out/obj/spi_18xx_43xx.o ./out/obj/i2cm_18xx_43xx.o ./out/obj/i2s_18xx_43xx.o ./out/obj/clock_18xx_43xx.o ./out/obj/rgu_18xx_43xx.o ./out/obj/pmc_18xx_43xx.o ./out/obj/ring_buffer.o ./out/obj/board_sysinit.o ./out/obj/timer_18xx_43xx.o ./out/obj/stopwatch_18xx_43xx.o ./out/obj/ssp_18xx_43xx.o ./out/obj/uart_18xx_43xx.o ./out/obj/enet_18xx_43xx.o ./out/obj/i2c_18xx_43xx.o ./out/obj/sdmmc_18xx_43xx.o ./out/obj/scu_18xx_43xx.o ./out/obj/ritimer_18xx_43xx.o ./out/obj/cr_startup_lpc43xx.o ./out/obj/sct_pwm_18xx_43xx.o ./out/obj/fpu_init.o ./out/obj/adc_18xx_43xx.o ./out/obj/sysinit_18xx_43xx.o ./out/obj/iap_18xx_43xx.o ./out/obj/board.o ./out/obj/evrt_18xx_43xx.o ./out/obj/mem_tests.o ./out/obj/sct_18xx_43xx.o ./out/obj/rtc_18xx_43xx.o ./out/obj/gpdma_18xx_43xx.o ./out/obj/sysinit.o ./out/obj/atimer_18xx_43xx.o ./out/obj/eeprom_18xx_43xx.o ./out/obj/aes_18xx_43xx.o ./out/obj/uda1380.o ./out/obj/lcd_18xx_43xx.o ./out/obj/dac_18xx_43xx.o ./out/obj/hsadc_18xx_43xx.o ./out/obj/gpiogroup_18xx_43xx.o ./out/obj/ccan_18xx_43xx.o
+arm-none-eabi-size ./out/liblpcopen_lpc4337.a
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    860	      0	     18	    878	    36e	lpc_phy_smsc87x0.o (ex ./out/liblpcopen_lpc4337.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3406	      0	      8	   3414	    d56	clock_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    180	      0	      0	    180	     b4	rgu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	board_sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2244	      0	      0	   2244	    8c4	ssp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2104	      0	      1	   2105	    839	uart_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    556	      0	      4	    560	    230	enet_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3140	      0	      4	   3144	    c48	sdmmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    172	      0	      0	    172	     ac	scu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    664	      0	      0	    664	    298	cr_startup_lpc43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex ./out/liblpcopen_lpc4337.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	sysinit_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1850	      0	      0	   1850	    73a	board.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1096	      0	      0	   1096	    448	mem_tests.o (ex ./out/liblpcopen_lpc4337.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    984	      0	      0	    984	    3d8	rtc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2698	    120	      8	   2826	    b0a	gpdma_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     40	      0	      0	     40	     28	sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    484	      0	     44	    528	    210	aes_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    613	      0	      0	    613	    265	uda1380.o (ex ./out/liblpcopen_lpc4337.a)
+    932	      1	      0	    933	    3a5	lcd_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    688	      0	      0	    688	    2b0	hsadc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2060	      0	      0	   2060	    80c	ccan_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+
+*** Building project ./sapi_bm ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+*** Archiving project sapi_bm ***
+arm-none-eabi-ar -r ./out/libsapi_bm.a ./out/obj/sAPI_Hmc5883l.o ./out/obj/sAPI_AnalogIO.o ./out/obj/sAPI_DataTypes.o ./out/obj/sAPI_Timer.o ./out/obj/sAPI_IsrVector.o ./out/obj/sAPI_Uart.o ./out/obj/sAPI_Tick.o ./out/obj/sAPI_Rtc.o ./out/obj/sAPI_Sct.o ./out/obj/sAPI_Delay.o ./out/obj/sAPI_Spi.o ./out/obj/sAPI_Pwm.o ./out/obj/sAPI_DigitalIO.o ./out/obj/sAPI_Servo.o ./out/obj/sAPI_Board.o ./out/obj/sAPI_I2c.o
+arm-none-eabi-size ./out/libsapi_bm.a
+   text	   data	    bss	    dec	    hex	filename
+    500	      0	      0	    500	    1f4	sAPI_Hmc5883l.o (ex ./out/libsapi_bm.a)
+    420	      0	      0	    420	    1a4	sAPI_AnalogIO.o (ex ./out/libsapi_bm.a)
+     24	      0	      0	     24	     18	sAPI_DataTypes.o (ex ./out/libsapi_bm.a)
+   1716	     64	      0	   1780	    6f4	sAPI_Timer.o (ex ./out/libsapi_bm.a)
+    340	      0	      0	    340	    154	sAPI_IsrVector.o (ex ./out/libsapi_bm.a)
+    692	      0	      0	    692	    2b4	sAPI_Uart.o (ex ./out/libsapi_bm.a)
+    412	      4	      0	    416	    1a0	sAPI_Tick.o (ex ./out/libsapi_bm.a)
+    260	      0	      1	    261	    105	sAPI_Rtc.o (ex ./out/libsapi_bm.a)
+    672	     28	      0	    700	    2bc	sAPI_Sct.o (ex ./out/libsapi_bm.a)
+    384	      0	      0	    384	    180	sAPI_Delay.o (ex ./out/libsapi_bm.a)
+      0	      0	      0	      0	      0	sAPI_Spi.o (ex ./out/libsapi_bm.a)
+    519	     11	      0	    530	    212	sAPI_Pwm.o (ex ./out/libsapi_bm.a)
+   1278	      0	      0	   1278	    4fe	sAPI_DigitalIO.o (ex ./out/libsapi_bm.a)
+   1549	     72	      0	   1621	    655	sAPI_Servo.o (ex ./out/libsapi_bm.a)
+     12	      0	      0	     12	      c	sAPI_Board.o (ex ./out/libsapi_bm.a)
+    372	      0	      0	    372	    174	sAPI_I2c.o (ex ./out/libsapi_bm.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+
+*** Building project ./application ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+*** Linking project application ***
+arm-none-eabi-gcc -L../lpcopen_lpc4337/out -L../sapi_bm/out -nostdlib -fno-builtin -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Xlinker -Map=./out/application.map -T./ld/ciaa_lpc4337.ld -o ./out/application.axf ./out/obj/cdc_uart.o ./out/obj/main.o ./out/obj/cdc_desc.o  -llpcopen_lpc4337 -lsapi_bm 
+arm-none-eabi-size ./out/application.axf
+   text	   data	    bss	    dec	    hex	filename
+  23484	    212	    160	  23856	   5d30	./out/application.axf
+arm-none-eabi-objcopy -v -O binary ./out/application.axf ./out/application.bin
+copy from `./out/application.axf' [elf32-littlearm] to `./out/application.bin' [binary]
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+

@@ -1,0 +1,98 @@
+21:07:20 **** Incremental Build of configuration Default for project USBDevice ****
+make 
+*** Building project ./lpcopen_lpc4337 ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+*** Archiving project lpcopen_lpc4337 ***
+arm-none-eabi-ar -r ./out/liblpcopen_lpc4337.a ./out/obj/pinint_18xx_43xx.o ./out/obj/otp_18xx_43xx.o ./out/obj/gpio_18xx_43xx.o ./out/obj/emc_18xx_43xx.o ./out/obj/chip_18xx_43xx.o ./out/obj/wwdt_18xx_43xx.o ./out/obj/lpc_phy_smsc87x0.o ./out/obj/sdif_18xx_43xx.o ./out/obj/spi_18xx_43xx.o ./out/obj/i2cm_18xx_43xx.o ./out/obj/i2s_18xx_43xx.o ./out/obj/clock_18xx_43xx.o ./out/obj/rgu_18xx_43xx.o ./out/obj/pmc_18xx_43xx.o ./out/obj/ring_buffer.o ./out/obj/board_sysinit.o ./out/obj/timer_18xx_43xx.o ./out/obj/stopwatch_18xx_43xx.o ./out/obj/ssp_18xx_43xx.o ./out/obj/uart_18xx_43xx.o ./out/obj/enet_18xx_43xx.o ./out/obj/i2c_18xx_43xx.o ./out/obj/sdmmc_18xx_43xx.o ./out/obj/scu_18xx_43xx.o ./out/obj/ritimer_18xx_43xx.o ./out/obj/cr_startup_lpc43xx.o ./out/obj/sct_pwm_18xx_43xx.o ./out/obj/fpu_init.o ./out/obj/adc_18xx_43xx.o ./out/obj/sysinit_18xx_43xx.o ./out/obj/iap_18xx_43xx.o ./out/obj/board.o ./out/obj/evrt_18xx_43xx.o ./out/obj/mem_tests.o ./out/obj/sct_18xx_43xx.o ./out/obj/rtc_18xx_43xx.o ./out/obj/gpdma_18xx_43xx.o ./out/obj/sysinit.o ./out/obj/atimer_18xx_43xx.o ./out/obj/eeprom_18xx_43xx.o ./out/obj/aes_18xx_43xx.o ./out/obj/uda1380.o ./out/obj/lcd_18xx_43xx.o ./out/obj/dac_18xx_43xx.o ./out/obj/hsadc_18xx_43xx.o ./out/obj/gpiogroup_18xx_43xx.o ./out/obj/ccan_18xx_43xx.o
+arm-none-eabi-size ./out/liblpcopen_lpc4337.a
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    860	      0	     18	    878	    36e	lpc_phy_smsc87x0.o (ex ./out/liblpcopen_lpc4337.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3406	      0	      8	   3414	    d56	clock_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    180	      0	      0	    180	     b4	rgu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	board_sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2244	      0	      0	   2244	    8c4	ssp_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2104	      0	      1	   2105	    839	uart_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    556	      0	      4	    560	    230	enet_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   3140	      0	      4	   3144	    c48	sdmmc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    172	      0	      0	    172	     ac	scu_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    664	      0	      0	    664	    298	cr_startup_lpc43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex ./out/liblpcopen_lpc4337.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    308	      0	      0	    308	    134	sysinit_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1850	      0	      0	   1850	    73a	board.o (ex ./out/liblpcopen_lpc4337.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   1096	      0	      0	   1096	    448	mem_tests.o (ex ./out/liblpcopen_lpc4337.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    984	      0	      0	    984	    3d8	rtc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2698	    120	      8	   2826	    b0a	gpdma_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+     40	      0	      0	     40	     28	sysinit.o (ex ./out/liblpcopen_lpc4337.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    484	      0	     44	    528	    210	aes_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    613	      0	      0	    613	    265	uda1380.o (ex ./out/liblpcopen_lpc4337.a)
+    932	      1	      0	    933	    3a5	lcd_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+    688	      0	      0	    688	    2b0	hsadc_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+   2060	      0	      0	   2060	    80c	ccan_18xx_43xx.o (ex ./out/liblpcopen_lpc4337.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/lpcopen_lpc4337'
+
+*** Building project ./sapi_bm ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+*** Archiving project sapi_bm ***
+arm-none-eabi-ar -r ./out/libsapi_bm.a ./out/obj/sAPI_Hmc5883l.o ./out/obj/sAPI_AnalogIO.o ./out/obj/sAPI_DataTypes.o ./out/obj/sAPI_Timer.o ./out/obj/sAPI_IsrVector.o ./out/obj/sAPI_Uart.o ./out/obj/sAPI_Tick.o ./out/obj/sAPI_Rtc.o ./out/obj/sAPI_Sct.o ./out/obj/sAPI_Delay.o ./out/obj/sAPI_Spi.o ./out/obj/sAPI_Pwm.o ./out/obj/sAPI_DigitalIO.o ./out/obj/sAPI_Servo.o ./out/obj/sAPI_Board.o ./out/obj/sAPI_I2c.o
+arm-none-eabi-size ./out/libsapi_bm.a
+   text	   data	    bss	    dec	    hex	filename
+    500	      0	      0	    500	    1f4	sAPI_Hmc5883l.o (ex ./out/libsapi_bm.a)
+    420	      0	      0	    420	    1a4	sAPI_AnalogIO.o (ex ./out/libsapi_bm.a)
+     24	      0	      0	     24	     18	sAPI_DataTypes.o (ex ./out/libsapi_bm.a)
+   1716	     64	      0	   1780	    6f4	sAPI_Timer.o (ex ./out/libsapi_bm.a)
+    340	      0	      0	    340	    154	sAPI_IsrVector.o (ex ./out/libsapi_bm.a)
+    692	      0	      0	    692	    2b4	sAPI_Uart.o (ex ./out/libsapi_bm.a)
+    412	      4	      0	    416	    1a0	sAPI_Tick.o (ex ./out/libsapi_bm.a)
+    260	      0	      1	    261	    105	sAPI_Rtc.o (ex ./out/libsapi_bm.a)
+    672	     28	      0	    700	    2bc	sAPI_Sct.o (ex ./out/libsapi_bm.a)
+    384	      0	      0	    384	    180	sAPI_Delay.o (ex ./out/libsapi_bm.a)
+      0	      0	      0	      0	      0	sAPI_Spi.o (ex ./out/libsapi_bm.a)
+    519	     11	      0	    530	    212	sAPI_Pwm.o (ex ./out/libsapi_bm.a)
+   1278	      0	      0	   1278	    4fe	sAPI_DigitalIO.o (ex ./out/libsapi_bm.a)
+   1549	     72	      0	   1621	    655	sAPI_Servo.o (ex ./out/libsapi_bm.a)
+     12	      0	      0	     12	      c	sAPI_Board.o (ex ./out/libsapi_bm.a)
+    372	      0	      0	    372	    174	sAPI_I2c.o (ex ./out/libsapi_bm.a)
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/sapi_bm'
+
+*** Building project ./application ***
+make[1]: se entra en el directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+*** Linking project application ***
+arm-none-eabi-gcc -L../lpcopen_lpc4337/out -L../sapi_bm/out -nostdlib -fno-builtin -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -Xlinker -Map=./out/application.map -T./ld/ciaa_lpc4337.ld -o ./out/application.axf ./out/obj/cdc_uart.o ./out/obj/main.o ./out/obj/cdc_desc.o  -llpcopen_lpc4337 -lsapi_bm 
+arm-none-eabi-size ./out/application.axf
+   text	   data	    bss	    dec	    hex	filename
+  23484	    212	    160	  23856	   5d30	./out/application.axf
+arm-none-eabi-objcopy -v -O binary ./out/application.axf ./out/application.bin
+copy from `./out/application.axf' [elf32-littlearm] to `./out/application.bin' [binary]
+
+make[1]: se sale del directorio '/cygdrive/c/CIAA/Firmware_USB/USBDevice/application'
+
+
+21:07:21 Build Finished (took 642ms)
+

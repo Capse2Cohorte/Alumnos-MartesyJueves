@@ -1,0 +1,5 @@
+Recordar compilar con "make" desde dentro esta misma carpeta, no usan nada del CIAA-Firmware.
+
+Este ejemplo convierte a la EDU-CIAA en un teclado USB.
+Con las teclas TEC1 a TEC4 escribe "o", "p", "q", "r" respectivamente. 
+El LEDB indica el estado del "Num Lock".
